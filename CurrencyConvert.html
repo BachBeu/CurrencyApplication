@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+    <link rel="stylesheet" href="CC.css">
+</head>
+<body>
+<form->
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input id="amount" type="value" name="Amount"></td>
+            <td>
+                <select id="from">
+                    <option value="23000">Việt Nam</option>
+                    <option value="1">Mỹ</option>
+                </select>
+            </td>
+            <td>
+                <select id="to">
+                    <option value="23000">Việt Nam</option>
+                    <option value="1">Mỹ</option>
+                </select>
+            </td >
+            <td><button type="submit" onclick="showMessage()">CONVERT</button></td>
+        </tr>
+    </table>
+</form->
+<script src="CC.js"></script>
+</body>
+</html>
